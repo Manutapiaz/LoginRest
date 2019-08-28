@@ -31,7 +31,7 @@ namespace Restaurant.WEB.Controllers
 
                     if (resultado != null)
                     {
-                        return this.RedirectToAction("Index", "Login");
+                        return this.RedirectToAction("Index", "Cuenta");
                     }
                     else
                     {
